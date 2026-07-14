@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Request a Tile Estimate | Legacy TileWorks</title>
+<meta name="description" content="Contact Legacy TileWorks & Design to discuss a tile or stone project.">
+<meta name="theme-color" content="#090a08">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon-512.png">
+<link rel="apple-touch-icon" href="favicon-512.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+<div class="utility">
+  <div class="container">
+    <div class="utility-left">
+      <span><i class="dot"></i> Precision.</span>
+      <span><i class="dot"></i> Craftsmanship.</span>
+      <span><i class="dot"></i> Legacy.</span>
+    </div>
+    <div class="utility-right">
+      <span>Serving Northern Colorado</span>
+      <a href="tel:+19705562889">(970) 556-2889</a>
+    </div>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="logo-wrap" href="index.html" aria-label="Legacy TileWorks and Design home">
+      <img src="assets/images/logo-transparent.png" alt="Legacy TileWorks and Design">
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="reviews.html">Reviews</a><a href="about.html">About</a><a href="contact.html" aria-current="page">Contact</a>
+      <a class="nav-cta" href="contact.html#estimate">Request an Estimate</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+<section class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Home</a> / Contact</div><p class="eyebrow">Contact</p><h1>Request an initial project review</h1><p>Include the room, approximate size, current condition, selected materials, photographs, location, and desired schedule.</p></div></section>
+<section class="section" id="estimate"><div class="container contact-grid">
+  <div class="contact-card">
+    <p class="eyebrow">Legacy TileWorks &amp; Design</p>
+    <h2>Start the conversation</h2>
+    <p>For a faster review, include current-condition photographs, inspiration images, dimensions, tile selections, and the target project window.</p>
+    <a class="phone" href="tel:+19705562889">(970) 556-2889</a>
+    <p><strong>Service Area</strong><br>Northern Colorado and surrounding communities</p>
+    <p><strong>Consultations</strong><br>By appointment</p>
+  </div>
+  <form class="contact-card" id="estimate-form" novalidate>
+    <div class="form-grid">
+      <label>Name *<input name="name" autocomplete="name" required></label>
+      <label>Phone *<input name="phone" type="tel" autocomplete="tel" required></label>
+      <label>Email *<input name="email" type="email" autocomplete="email" required></label>
+      <label>Project Location<input name="location" placeholder="City or ZIP code"></label>
+      <label>Project Type *
+        <select name="projectType" required>
+          <option value="">Select one</option>
+          <option>Custom shower</option><option>Bathroom tile</option><option>Kitchen backsplash</option>
+          <option>Tile flooring</option><option>Natural stone</option><option>Fireplace / feature wall</option>
+          <option>Custom design</option><option>Repair / restoration</option><option>Other</option>
+        </select>
+      </label>
+      <label>Timeline<select name="timeline"><option>Not sure yet</option><option>As soon as available</option><option>1–3 months</option><option>3–6 months</option><option>6+ months</option></select></label>
+      <label>Budget<select name="budget"><option>Prefer to discuss</option><option>Under $5,000</option><option>$5,000–$10,000</option><option>$10,000–$20,000</option><option>$20,000–$40,000</option><option>$40,000+</option></select></label>
+      <label class="full">Project Details *<textarea name="details" rows="8" required placeholder="Describe the room, size, current condition, materials, design goals, and schedule."></textarea></label>
+      <div class="full"><button class="btn btn-gold" type="submit">Prepare Estimate Request</button><p class="form-status" id="form-status" role="status"></p></div>
+    </div>
+  </form>
+</div></section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <img class="footer-logo" src="assets/images/logo-transparent.png" alt="Legacy TileWorks and Design">
+      <p>Custom tile, stone, shower, flooring, backsplash, fireplace, and design work completed with careful preparation and lasting attention to detail.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="about.html">About</a>
+    </div>
+    <div>
+      <h3>Services</h3>
+      <a href="service-showers.html">Custom Showers</a>
+      <a href="service-flooring.html">Tile Flooring</a>
+      <a href="service-backsplashes.html">Backsplashes</a>
+      <a href="service-stone.html">Natural Stone</a>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <a href="tel:+19705562889">(970) 556-2889</a>
+      <a href="contact.html#estimate">Request an Estimate</a>
+      <p>Northern Colorado<br>Consultations by appointment</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Legacy TileWorks &amp; Design</span>
+    <span>Prototype website — verify business claims before launch</span>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+
+</body>
+</html>

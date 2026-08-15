@@ -2,7 +2,8 @@
     --black:#090a08;
     --panel:#10110e;
     --panel-2:#151611;
-    --gold:#b78e45;
+    /*--gold:#b78e45;*/
+    --gold:#D8BD64;
     --gold-light:#d0ad65;
     --gold-pale:#e2c98e;
     --text:#f1ede4;
@@ -177,25 +178,22 @@ p {
 }
 
 .navbar {
-    min-height: 140px;
-    display: grid;
-    grid-template-columns: 430px 1fr auto;
-    align-items: center;
-    gap: 2.5rem;
+    min-height:140px;
+    grid-template-columns:430px 1fr auto;
 }
 
 .logo-wrap {
-    display: flex;
-    align-items: center;
-    min-width: 0;
+    display:flex;
+    align-items:center;
+    min-width:0
 }
 
 .logo-wrap img {
-    width: 420px;
-    height: auto;
-    max-height: 125px;
-    object-fit: contain;
-    object-position: left center;
+    width:420px;
+    height:auto;
+    max-height:125px;
+    object-fit:contain;
+    object-position:left center;
 }
 
 .nav {
@@ -708,26 +706,24 @@ input:focus,select:focus,textarea:focus {
     color:#918a7f
 }
 
-@media (max-width: 1100px) {
+@media(max-width:1100px) {
     .navbar {
-        grid-template-columns: 360px 1fr auto;
-        gap: 1.5rem;
+        grid-template-columns:300px 1fr auto
     }
     .logo-wrap img {
-        width: 350px;
-        max-height: 115px;
+        width:285px
     }
     .nav {
-        gap: 1.2rem;
+        gap:1.2rem
     }
     .services-strip {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns:repeat(3,1fr)
     }
     .why-grid {
-        grid-template-columns: 1fr repeat(2, 1fr);
+        grid-template-columns:1fr repeat(2,1fr)
     }
     .why-title {
-        grid-column: 1 / -1;
+        grid-column:1/-1
     }
 }
 
@@ -738,7 +734,7 @@ input:focus,select:focus,textarea:focus {
     .nav {
         display:none;
         position:absolute;
-        top:140px;
+        top:118px;
         left:0;
         right:0;
         background:#080906;
@@ -782,16 +778,14 @@ input:focus,select:focus,textarea:focus {
         justify-content:flex-end
     }
     .logo-wrap img {
-        width: min(310px, 72vw);
-        height: auto;
-        max-height: 100px;
+        width:250px;
+        height:86px
     }
-
     .navbar {
-        min-height:110px
+        min-height:95px
     }
     .nav {
-        top:110px
+        top:95px
     }
     .services-strip,.why-grid,.project-grid,.testimonials,.content-grid {
         grid-template-columns:1fr

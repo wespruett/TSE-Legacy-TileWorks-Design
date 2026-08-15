@@ -50,7 +50,15 @@ p{margin-top:0}
 .site-header{position:sticky;top:0;z-index:1000;background:rgba(8,9,7,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
 .navbar{min-height:118px;display:grid;grid-template-columns:360px 1fr auto;align-items:center;gap:2.5rem}
 .logo-wrap{display:flex;align-items:center;min-width:0}
-.logo-wrap img{width:340px;height:100px;object-fit:contain;object-position:left center}
+.logo-wrap img {
+    width: 340px;
+    height: 100px;
+    object-fit: contain;
+    object-position: left center;
+
+    transform: scale(1.2);
+    transform-origin: left center;
+}
 .nav{display:flex;align-items:center;justify-content:center;gap:2.3rem;font-size:.83rem;letter-spacing:.05em;text-transform:uppercase}
 .nav a{padding:.55rem 0;border-bottom:2px solid transparent}
 .nav a:hover,.nav a[aria-current="page"]{color:var(--gold-light);border-color:var(--gold)}

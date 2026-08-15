@@ -183,17 +183,19 @@ p {
 }
 
 .logo-wrap {
-    display:flex;
-    align-items:center;
-    min-width:0
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    overflow: visible;
 }
 
 .logo-wrap img {
-    width:420px;
-    height:auto;
-    max-height:125px;
-    object-fit:contain;
-    object-position:left center;
+    width: 340px;
+    height: 100px;
+    object-fit: contain;
+    object-position: left center;
+    transform: scale(1.18);
+    transform-origin: left center;
 }
 
 .nav {

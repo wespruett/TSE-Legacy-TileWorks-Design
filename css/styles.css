@@ -178,8 +178,11 @@ p {
 }
 
 .navbar {
-    min-height:140px;
-    grid-template-columns:430px 1fr auto;
+    min-height: 118px;
+    display: grid;
+    grid-template-columns: 360px 1fr auto;
+    align-items: center;
+    gap: 2.5rem;
 }
 
 .logo-wrap {

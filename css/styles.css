@@ -2,13 +2,15 @@
     --black:#090a08;
     --panel:#10110e;
     --panel-2:#151611;
-    --gold:#b78e45;
-    --gold-light:#d0ad65;
-    --gold-pale:#e2c98e;
+    
+    --gold:#BEBA3C;
+    --gold-light:#BEBA3C;
+    --gold-pale:D8D46F;
+    
     --text:#f1ede4;
     --muted:#b6b0a5;
-    --line:rgba(197,154,75,.52);
-    --line-soft:rgba(197,154,75,.22);
+    --line: rgba(190, 186, 60, .52);
+    --line-soft: rgba(190, 186, 60, .22);
     --max:1440px;
 }
 
